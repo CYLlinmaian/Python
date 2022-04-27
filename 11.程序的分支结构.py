@@ -81,3 +81,18 @@ elif score>=0 and score<=59:
     print('贫下中农')
 else:
     print('对不起,这玩意不是个人')
+
+#拓展 python中大于等于的另一种写法
+score=int(input('请输入一个成绩:'))
+if 90<=score<=100:
+    print('亿表人才')
+elif 80<=score<=89:
+    print('翩翩公子')
+elif 70<=score<=79:
+    print('纸醉金迷')
+elif 60<=score<=69:
+    print('腰缠万贯')
+elif 0<=score<=59:
+    print('贫下中农')
+else:
+    print('对不起,这玩意不是个人')
