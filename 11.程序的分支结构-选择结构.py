@@ -117,8 +117,8 @@ else:
     其他   不打折
 '''
 answer=input('您是会员吗?Y/N')
-money=float(input('请输入您的购物金额:'))
 if answer=='Y':
+    money = float(input('请输入您的购物金额:'))
     if money>=200:
         print('尊敬的会员,您本次购物享受8折优惠,付款金额为:',money*0.8)
     elif money>=100:
@@ -126,6 +126,7 @@ if answer=='Y':
     else:
         print('尊敬的会员,您本次购物的付款金额为:', money)
 elif answer=='N':
+    money = float(input('请输入您的购物金额:'))
     if money>=200:
         print('尊敬的顾客,您本次购物享受9.5折优惠,付款金额为:', money*0.95)
     else:
