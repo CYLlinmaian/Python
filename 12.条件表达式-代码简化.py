@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2022/4/28 9:25
 # @Author  : CYLlinmaian
-# @FileName: 12.条件表达式.py
+# @FileName: 12.条件表达式-代码简化.py
 # @Software: PyCharm
 '''
 条件表达式   if...else...的简写
