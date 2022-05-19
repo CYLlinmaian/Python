@@ -66,8 +66,8 @@ if num % 2 == 0:
 else:
     print(num, '是奇数')
 
-#多分支结构,多选一执行
-#从键盘录入一个存款整数,判断个人颜值等级
+# 多分支结构,多选一执行
+# 从键盘录入一个存款整数,判断个人颜值等级
 '''
 90-100  A   亿表人才
 80-89   B   翩翩公子
@@ -76,37 +76,36 @@ else:
 0-59    E   贫下中农
 小于0或者大于100为非法数据(不是期待的有效值)
 '''
-score=int(input('请输入一个成绩:'))
-if score>=90 and score<=100:
+score = int(input('请输入一个成绩:'))
+if score >= 90 and score <= 100:
     print('亿表人才')
-elif score>=80 and score<=89:
+elif score >= 80 and score <= 89:
     print('翩翩公子')
-elif score>=70 and score<=79:
+elif score >= 70 and score <= 79:
     print('纸醉金迷')
-elif score>=60 and score<=69:
+elif score >= 60 and score <= 69:
     print('腰缠万贯')
-elif score>=0 and score<=59:
+elif score >= 0 and score <= 59:
     print('贫下中农')
 else:
     print('对不起,这玩意不是个人')
 
-#拓展 python中大于等于的另一种写法
-score=int(input('请输入一个成绩:'))
-if 90<=score<=100:
+# 拓展 python中大于等于的另一种写法
+score = int(input('请输入一个成绩:'))
+if 90 <= score <= 100:
     print('亿表人才')
-elif 80<=score<=89:
+elif 80 <= score <= 89:
     print('翩翩公子')
-elif 70<=score<=79:
+elif 70 <= score <= 79:
     print('纸醉金迷')
-elif 60<=score<=69:
+elif 60 <= score <= 69:
     print('腰缠万贯')
-elif 0<=score<=59:
+elif 0 <= score <= 59:
     print('贫下中农')
 else:
     print('对不起,这玩意不是个人')
-    
-    
-#嵌套结构   综合应用
+
+# 嵌套结构   综合应用
 '''
 会员
     >=200 8折
@@ -116,19 +115,19 @@ else:
     >=200 9.5折
     其他   不打折
 '''
-answer=input('您是会员吗?Y/N:')
-if answer in['Y','y']:
+answer = input('您是会员吗?Y/N:')
+if answer in ['Y', 'y']:
     money = float(input('请输入您的购物金额:'))
-    if money>=200:
-        print('尊敬的会员,您本次购物享受8折优惠,付款金额为:',money*0.8)
-    elif money>=100:
-        print('尊敬的会员,您本次购物享受9折优惠,付款金额为:',money*0.9)
+    if money >= 200:
+        print('尊敬的会员,您本次购物享受8折优惠,付款金额为:', money * 0.8)
+    elif money >= 100:
+        print('尊敬的会员,您本次购物享受9折优惠,付款金额为:', money * 0.9)
     else:
         print('尊敬的会员,您本次购物的付款金额为:', money)
-elif answer in ['N','n']:
+elif answer in ['N', 'n']:
     money = float(input('请输入您的购物金额:'))
-    if money>=200:
-        print('尊敬的顾客,您本次购物享受9.5折优惠,付款金额为:', money*0.95)
+    if money >= 200:
+        print('尊敬的顾客,您本次购物享受9.5折优惠,付款金额为:', money * 0.95)
     else:
         print('尊敬的顾客,您本次购物的付款金额为:', money)
 else:

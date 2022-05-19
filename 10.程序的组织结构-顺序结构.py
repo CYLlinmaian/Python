@@ -11,8 +11,8 @@
     选择结构    if语句
     循环结构    while语句 for-in语句
 '''
-#实例：
-#顺序结构
+# 实例：
+# 顺序结构
 '''把马西林打一顿需要几步'''
 print('---程序开始---')
 print('1、找到马西林')
@@ -21,9 +21,8 @@ print('3、快速后仰迈开腿抬起脚向前用力')
 print('4、然后给他一巴掌')
 print('---程序结束---')
 
-
-#python一切皆对象之对象的布尔值 所有的对象都会有一个布尔值True/False
-#对象布尔值:写代码的时候可以直接把对象放在条件表达式中去做判断
+# python一切皆对象之对象的布尔值 所有的对象都会有一个布尔值True/False
+# 对象布尔值:写代码的时候可以直接把对象放在条件表达式中去做判断
 '''
 以下对象的布尔值为False
     #False
@@ -35,19 +34,19 @@ print('---程序结束---')
     #空字典
     #空集合
 '''
-#测试对象的布尔值
+# 测试对象的布尔值
 print('------以下对象的布尔值为False------')
 print(bool(False))
 print(bool(0))
 print(bool(0.0))
-print(bool('')) #空字符串
-print(bool("")) #空字符串
-print(bool([])) #空列表
-print(bool(list())) #空列表
-print(bool(())) #空元组
-print(bool(tuple()))    #空元组
-print(bool({})) #空字典
-print(bool(dict())) #空字典
+print(bool(''))  # 空字符串
+print(bool(""))  # 空字符串
+print(bool([]))  # 空列表
+print(bool(list()))  # 空列表
+print(bool(()))  # 空元组
+print(bool(tuple()))  # 空元组
+print(bool({}))  # 空字典
+print(bool(dict()))  # 空字典
 print(bool(set()))
 print(bool(False))
 print(bool(False))

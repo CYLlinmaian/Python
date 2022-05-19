@@ -14,11 +14,11 @@ pass语句:
     ②for-in语句的循环体
     ③定义函数时的函数体
 '''
-answer=input('您是会员吗?Y/N:')
-money=float(input('请输入您的购物金额:'))
-if answer=='Y':
-   pass
-elif answer=='N':
+answer = input('您是会员吗?Y/N:')
+money = float(input('请输入您的购物金额:'))
+if answer == 'Y':
+    pass
+elif answer == 'N':
     pass
 else:
     pass

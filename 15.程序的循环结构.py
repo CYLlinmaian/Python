@@ -31,7 +31,7 @@ for-in循环
             循环体
     循环体内不需要访问自定义变量，可以将自定义变量替代为下划线
 '''
-#实例
+# 实例
 '''
 #选择结构if
 a=1
@@ -45,38 +45,37 @@ while a<10:
     print(a)
     a+=1
 '''
-sum=0
-a=0
-while a<101:
-    sum+=a
-    a+=1
-print('0到100的和为:',sum)
-#!!!警告,注意缩进,不要将print写入循环
+sum = 0
+a = 0
+while a < 101:
+    sum += a
+    a += 1
+print('0到100的和为:', sum)
+# !!!警告,注意缩进,不要将print写入循环
 
-#练习 计算1到100之间的偶数和
-sum=0
-a=1
-while a<=100:
-    if a%2==0:  #'if a%2:'奇数和条件
-        sum+=a
-    a+=1
-print('1~100之间的偶数和为:',sum)
+# 练习 计算1到100之间的偶数和
+sum = 0
+a = 1
+while a <= 100:
+    if a % 2 == 0:  # 'if a%2:'奇数和条件
+        sum += a
+    a += 1
+print('1~100之间的偶数和为:', sum)
 
-
-#for-in循环
-for item in 'python':   #依次遍历，依次取出p、y、t、h、o、n并打印输出
+# for-in循环
+for item in 'python':  # 依次遍历，依次取出p、y、t、h、o、n并打印输出
     print(item)
 
-for i in range(10): #range()函数也是一个可迭代对象
+for i in range(10):  # range()函数也是一个可迭代对象
     print(i)
 
-#如果在循环体中不想需要使用到自定义变量,可以将自定义变量写为"_"
+# 如果在循环体中不想需要使用到自定义变量,可以将自定义变量写为"_"
 for _ in range(5):
     print('人生苦短,及时行乐!!!')
 
-#使用for循环计算1到100之间的偶数和
-sum=0
-for item in  range(1,101):
-    if item %2==0:
-        sum+=item
-print('1到100之间的偶数和为:',sum)
+# 使用for循环计算1到100之间的偶数和
+sum = 0
+for item in range(1, 101):
+    if item % 2 == 0:
+        sum += item
+print('1到100之间的偶数和为:', sum)
