@@ -1,10 +1,12 @@
-#!/usr/bin/python3
-# -*- coding: utf-8 -*-
-# @Time    : 2022/4/26 21:52
-# @Author  : CYLlinmaian
-# @FileName: 11.程序的分支结构-选择结构.py
-# @Software: PyCharm
-
+'''
+Author: CYLlinmaian
+Date: 2022-07-10 03:38:22
+LastEditTime: 2022-07-10 03:42:58
+LastEditors: CYLlinmaian
+Description: 
+FilePath: \Python\11.程序的分支结构-选择结构.py
+Copyright © 1999 - 2022 Mr.chen.All Rights Reserved.
+'''
 '''
 程序的分支结构
     选择结构

@@ -1,9 +1,12 @@
-#!/usr/bin/python3
-# -*- coding: utf-8 -*-
-# @Time    : 2022/4/28 10:18
-# @Author  : CYLlinmaian
-# @FileName: 13.pass语句.py
-# @Software: PyCharm
+'''
+Author: CYLlinmaian
+Date: 2022-07-10 03:38:22
+LastEditTime: 2022-07-10 03:44:50
+LastEditors: CYLlinmaian
+Description: 
+FilePath: \Python\13.pass语句.py
+Copyright © 1999 - 2022 Mr.chen.All Rights Reserved.
+'''
 '''
 pass语句:
     语句啥都不干,只是一个占位符,用在语法上需要语句的地方

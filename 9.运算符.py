@@ -1,3 +1,12 @@
+'''
+Author: CYLlinmaian
+Date: 2022-07-10 03:38:22
+LastEditTime: 2022-07-10 03:39:46
+LastEditors: CYLlinmaian
+Description: 
+FilePath: \Python\9.运算符.py
+Copyright © 1999 - 2022 Mr.chen.All Rights Reserved.
+'''
 # 算术运算符
 # 标准算术运算符
 print(1 + 1)  # 加法运算

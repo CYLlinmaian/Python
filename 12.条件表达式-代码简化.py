@@ -1,9 +1,12 @@
-#!/usr/bin/python3
-# -*- coding: utf-8 -*-
-# @Time    : 2022/4/28 9:25
-# @Author  : CYLlinmaian
-# @FileName: 12.条件表达式-代码简化.py
-# @Software: PyCharm
+'''
+Author: CYLlinmaian
+Date: 2022-07-10 03:38:22
+LastEditTime: 2022-07-10 03:43:31
+LastEditors: CYLlinmaian
+Description: 
+FilePath: \Python\12.条件表达式-代码简化.py
+Copyright © 1999 - 2022 Mr.chen.All Rights Reserved.
+'''
 '''
 条件表达式   if...else...的简写
     #语法结构:

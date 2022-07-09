@@ -1,3 +1,12 @@
+'''
+Author: CYLlinmaian
+Date: 2022-07-10 03:38:22
+LastEditTime: 2022-07-10 03:38:43
+LastEditors: CYLlinmaian
+Description: 
+FilePath: \Python\1.print函数.py
+Copyright © 1999 - 2022 Mr.chen.All Rights Reserved.
+'''
 # 输出数字
 
 print(23.5)

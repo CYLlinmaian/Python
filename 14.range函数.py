@@ -1,9 +1,12 @@
-#!/usr/bin/python3
-# -*- coding: utf-8 -*-
-# @Time    : 2022/4/28 20:05
-# @Author  : CYLlinmaian
-# @FileName: 14.range函数.py
-# @Software: PyCharm
+'''
+Author: CYLlinmaian
+Date: 2022-07-10 03:38:22
+LastEditTime: 2022-07-10 03:45:10
+LastEditors: CYLlinmaian
+Description: 
+FilePath: \Python\14.range函数.py
+Copyright © 1999 - 2022 Mr.chen.All Rights Reserved.
+'''
 '''
 range()函数
     #用于生成一个整数序列

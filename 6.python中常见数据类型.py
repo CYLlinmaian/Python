@@ -1,3 +1,12 @@
+'''
+Author: CYLlinmaian
+Date: 2022-07-10 03:38:22
+LastEditTime: 2022-07-10 03:39:20
+LastEditors: CYLlinmaian
+Description: 
+FilePath: \Python\6.python中常见数据类型.py
+Copyright © 1999 - 2022 Mr.chen.All Rights Reserved.
+'''
 # 整数类型：不带小数点，不带单引号-->int 98 正数、复数、零
 # 可以表示为二进制、十进制（默认）、八进制、十六进制
 n1 = -1

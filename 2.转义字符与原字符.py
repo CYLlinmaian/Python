@@ -1,3 +1,12 @@
+'''
+Author: CYLlinmaian
+Date: 2022-07-10 03:38:22
+LastEditTime: 2022-07-10 03:38:52
+LastEditors: CYLlinmaian
+Description: 
+FilePath: \Python\2.转义字符与原字符.py
+Copyright © 1999 - 2022 Mr.chen.All Rights Reserved.
+'''
 print('hello\nworld')  # 转义功能的首字母  n-->newline的首字母表示换行
 print('hello\tworld')
 print('helloooo\tworld')

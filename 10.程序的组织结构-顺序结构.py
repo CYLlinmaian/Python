@@ -1,9 +1,12 @@
-#!/usr/bin/python3
-# -*- coding: utf-8 -*-
-# @Time    : 2022/4/26 20:50
-# @Author  : CYLlinmaian
-# @FileName: 10.程序的组织结构-顺序结构.py
-# @Software: PyCharm
+'''
+Author: CYLlinmaian
+Date: 2022-07-10 03:38:22
+LastEditTime: 2022-07-10 03:41:04
+LastEditors: CYLlinmaian
+Description: 
+FilePath: \Python\10.程序的组织结构-顺序结构.py
+Copyright © 1999 - 2022 Mr.chen.All Rights Reserved.
+'''
 '''
 计算机的流程控制
     顺序结构

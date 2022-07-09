@@ -1,3 +1,12 @@
+'''
+Author: CYLlinmaian
+Date: 2022-07-10 03:38:22
+LastEditTime: 2022-07-10 03:39:30
+LastEditors: CYLlinmaian
+Description: 
+FilePath: \Python\7.数据类型转换.py
+Copyright © 1999 - 2022 Mr.chen.All Rights Reserved.
+'''
 '''将不同数据类型的数据拼接在一起'''
 name = '小林'
 age = 20
