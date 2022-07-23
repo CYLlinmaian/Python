@@ -1,7 +1,7 @@
 '''
 Author: CYLlinmaian
 Date: 2022-07-10 03:38:22
-LastEditTime: 2022-07-10 03:39:20
+LastEditTime: 2022-07-23 12:48:44
 LastEditors: CYLlinmaian
 Description: 
 FilePath: \Python\6.python中常见数据类型.py
@@ -9,6 +9,7 @@ Copyright © 1999 - 2022 Mr.chen.All Rights Reserved.
 '''
 # 整数类型：不带小数点，不带单引号-->int 98 正数、复数、零
 # 可以表示为二进制、十进制（默认）、八进制、十六进制
+from decimal import Decimal
 n1 = -1
 n2 = 0
 n3 = 1
@@ -28,7 +29,6 @@ a3 = 3.3
 print(a1 + a2)
 print(a1 + a3)
 '''计算不精确的问题不是所有小数都出现，只有部分会出现'''
-from decimal import Decimal
 
 print(Decimal('1.1') + Decimal('2.2'))
 print(Decimal(a1) + Decimal(a2))
