@@ -1,7 +1,7 @@
 '''
 Author: CYLlinmaian
 Date: 2022-07-25 08:54:02
-LastEditTime: 2022-07-25 09:38:30
+LastEditTime: 2022-07-25 09:45:20
 LastEditors: CYLlinmaian
 Description: 
 FilePath: \Python\17.嵌套循环.py
@@ -32,5 +32,7 @@ for i in range(1, 10):  # 行数
 for i in range(5):
     for j in range(1, 11):
         if j % 2 == 0:
-            break
-        print(j)
+            # break
+            continue
+        print(j, end='\t')
+    print()
