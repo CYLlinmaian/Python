@@ -1,7 +1,7 @@
 '''
 Author: CYLlinmaian
 Date: 2022-07-10 18:50:07
-LastEditTime: 2022-07-25 08:23:03
+LastEditTime: 2022-07-25 08:29:01
 LastEditors: CYLlinmaian
 Description: 
 FilePath: \Python\16.流程控制语句.py
@@ -52,3 +52,6 @@ for item in range(1, 51):
     if item % 5 != 0:
         continue
     print(item)
+
+
+# else语句
