@@ -1,7 +1,7 @@
 '''
 Author: CYLlinmaian
 Date: 2022-07-10 18:50:07
-LastEditTime: 2022-07-25 08:29:01
+LastEditTime: 2022-07-25 08:48:27
 LastEditors: CYLlinmaian
 Description: 
 FilePath: \Python\16.流程控制语句.py
@@ -55,3 +55,28 @@ for item in range(1, 51):
 
 
 # else语句
+for item in range(3):
+    pwd = input('请输入密码:')
+    if pwd == '8888':
+        print('密码正确')
+        break
+    else:
+        print('密码不正确')
+
+else:
+    print('警告,密码三次输入错误,系统将在30s后启动自毁程序!!!')
+
+
+a = 0
+while a < 3:
+    pwd = input('请输入密码:')
+    if pwd == '8888':
+        print('密码正确')
+        break
+    else:
+        print('密码不正确')
+    '''改变变量'''
+    a += 1
+
+else:
+    print('警告,密码三次输入错误,系统将在30s后启动自毁程序!!!')
