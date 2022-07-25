@@ -1,7 +1,7 @@
 '''
 Author: CYLlinmaian
 Date: 2022-07-25 12:00:02
-LastEditTime: 2022-07-25 19:21:03
+LastEditTime: 2022-07-25 22:28:12
 LastEditors: CYLlinmaian
 Description: 
 FilePath: \Python\18.列表.py
@@ -48,7 +48,7 @@ print(lst1[2], lst1[-1])
 根据需要动态分配和回收内存
 '''
 
-# 列表的查询操作
+# 列表的操作
 '''
 #获取列表中指定元素的索引
     index()
@@ -105,6 +105,19 @@ print(lst1[2], lst1[-1])
             清空列表
         del()
             删除列表
+            
+#列表元素的修改操作:①为指定索引的元素赋予一个新值;②为指定的切片赋予一个新值
+
+#列表元素的排序操作:
+    常见方法:
+        调用sort()方法,列中所有的元素默认按照从小到大的顺序进行排序,可以指定reverse=True,进行降序排序,对原列表进行操作
+        调用内置函数sorted(),可以指定reverse=True,进行降序排序,原列表不发生改变
+
+#列表生成式:"生成列表的公式"
+    语法格式:
+        [i*i for i in range(1,10)]
+    注意事项:
+        "表示列表元素的表达式"中通常包含自定义变量
 '''
 # 获取索引
 lst2 = ['Hello', 'World', 21, 'Hello']
@@ -175,3 +188,45 @@ print(lst10)
 lst10.remove(3)
 print(lst10)
 '''lst10.remove(100)   ValueError: list.remove(x): x not in list'''
+lst10.pop(1)  # 指定元素索引
+print(lst10)
+'''lst10.pop(11)   IndexError: pop index out of range'''  # 超出了列表范围
+lst10.pop()  # 不指定元素索引,默认删除列表最后一个元素
+print(lst10)
+
+new_lst = lst10[1:3]
+print('原列表', lst10)
+print('切片后的列表', new_lst)  # 产生了新的列表对象
+lst10[1:3] = []  # 不产生新的列表
+print(lst10)
+lst10.clear()
+print(lst10)
+del lst10  # 对列表外部操作,所以不是lst.del
+'''print(lst10)    NameError: name 'lst10' is not defined. Did you mean: 'lst1'?'''
+
+# 元素修改
+lst11 = [10, 20, 30, 40, 50]
+print(lst11)
+lst11[2] = 35
+print(lst11)
+lst11[1:3] = [200, 300, 400, 500]
+print(lst11)
+
+# 元素排序
+lst12 = [34, 23, 45, 61, 27, 22, 57]
+print('排序前的列表', lst12, id(lst12))
+lst12.sort(reverse=False)   # 开始排序,调用列表对象sort方法,升序排序 也可以写成lst12.sort()
+print('升序后的列表', lst12, id(lst12))
+lst12.sort(reverse=True)  # 开始排序,降序排序
+print('降序后的列表', lst12, id(lst12))
+
+new_lst = sorted(lst12)
+print('升序后的列表', new_lst, id(new_lst))  # 产生了一个新的列表
+desc_lst = sorted(lst12, reverse=True)
+print('降序后的列表', desc_lst, id(desc_lst))  # 产生了一个新的列表
+
+# 列表公式
+lst13 = [i*i for i in range(1, 11)]
+print(lst13)
+lst14 = [i*2 for i in range(1, 6)]
+print(lst14)
