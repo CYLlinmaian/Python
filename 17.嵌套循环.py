@@ -1,7 +1,7 @@
 '''
 Author: CYLlinmaian
 Date: 2022-07-25 08:54:02
-LastEditTime: 2022-07-25 09:13:15
+LastEditTime: 2022-07-25 09:38:30
 LastEditors: CYLlinmaian
 Description: 
 FilePath: \Python\17.嵌套循环.py
@@ -25,3 +25,12 @@ for i in range(1, 10):  # 行数
     for j in range(1, i+1):
         print(i, '*', j, '=', i*j, end='\t')
     print()
+
+
+# 二重循环中的break和continue用于控制本层循环
+'''流程控制语句break和continue在二重循环中的使用'''
+for i in range(5):
+    for j in range(1, 11):
+        if j % 2 == 0:
+            break
+        print(j)
