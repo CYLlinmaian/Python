@@ -1,7 +1,7 @@
 '''
 Author: CYLlinmaian
 Date: 2022-07-25 22:33:35
-LastEditTime: 2022-07-26 01:16:34
+LastEditTime: 2022-07-26 09:03:30
 LastEditors: CYLlinmaian
 Description:
 FilePath: \Python\19.字典.py
@@ -28,19 +28,24 @@ Copyright © 1999 - 2022 Mr.chen.All Rights Reserved.
             如果字典中不存在指定的key,抛出KeyError异常
         # get()  举例:scores.get('张三')
             如果字典中不存在指定的key,并不会抛出KeyError而是返回None,可以通过参数设置默认的value,以便指定的key不存在时返回
+            
     # 字典的增删查改
+    
     # 字典的视图操作
         # keys() 获取字典中所有的键
         # values()   获取字典中所有的value
         # items()    获取字典中所有key-value对
+        
     #字典元素的遍历:依次获取字典中的元素
         for item in scores:
+            
     #字典的特点:
         #字典中的所有元素都是一个key-value对,其中key不允许重复,value可以重复
         #字典中的元素是无序的
         #字典中的key必须是不可变对象
         #字典也可以根据需要动态的伸缩
         #字典会浪费大量的内存,是一种使用空间换时间的数据结构
+        
     #字典生成式:生成字典的公式
         #内置函数zip()
             用于将可迭代对象作为参数,将对象中对应的元素打包成一个元组,然后返回由这些元组组成的列表
