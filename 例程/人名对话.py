@@ -1,7 +1,7 @@
 '''
 Author: CYLlinmaian
 Date: 2022-09-04 15:39:02
-LastEditTime: 2022-09-04 17:14:18
+LastEditTime: 2022-09-04 17:55:45
 LastEditors: CYLlinmaian
 Description: 简单的人名对话
 FilePath: \Python-1\例程\人名对话.py
